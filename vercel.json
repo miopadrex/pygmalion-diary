@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",           // 모든 요청을
+      "destination": "/index.html"  // index.html로 보내기
+    }
+  ]
+}
