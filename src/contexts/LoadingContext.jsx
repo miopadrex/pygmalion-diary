@@ -88,10 +88,10 @@ export function LoadingProvider({ children }) {
 	};
 
 	return (
-		<LoadingContext.Provider value={value}>
+		<LoadingContext value={value}>
 			{children}
 			<LoadingOverlay isLoading={isLoading} text={getLoadingText()} />
-		</LoadingContext.Provider>
+		</LoadingContext>
 	);
 }
 
